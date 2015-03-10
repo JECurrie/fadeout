@@ -17,8 +17,8 @@
      border-radius:100px;
    }
    .square {
-     width:200px;
-     height:200px;
+     width:100px;
+     height:300px;
      background-color:red;
      margin-top:10px;
    }
@@ -27,14 +27,21 @@
  <body>
    <div id="circle"></div>
    <div class="square"></div> 
+   <div class="square"></div> 
  <p>This is some text.</p>
  <iframe src="http://www.cnn.com"></iframe>
  <script>
+    $(".square").click(function() {
+       ( $(this).css("display","none") );
+    });
     $(".square").hover(function() {
-       $("p").html("The text has been changed!");
+       $("p").html("Another text.");
     });
     $("#circle").hover(function() {
        $("iframe").attr("src","http://www.ecowebhosting.co.uk");
+    });
+    $("#circle").click(function() {
+       $(this).fadeOut();
     });
  </script>
  </body>
