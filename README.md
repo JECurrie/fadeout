@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # jQuery_example
 =======
 # circle_squares
@@ -13,3 +14,6 @@ Example in javascript using circle and squares.
 # text_website
 example.
 >>>>>>> dd0640ba32b949b45e67c6c6a613e391582504e0
+=======
+# fadeout
+>>>>>>> 9e7cd84a8a5437c9cd2254048a38a4e0b38c4d96
