@@ -26,9 +26,13 @@
  </head>
  <body>
    <div id="circle"></div>
-   <p>This is some text.</p>
-   <iframe src="http://www.cnn.com"></iframe>
+   <div class="square"></div> 
+ <p>This is some text.</p>
+ <iframe src="http://www.cnn.com"></iframe>
  <script>
+    $(".square").hover(function() {
+       $("p").html("The text has been changed!");
+    });
     $("#circle").hover(function() {
        $("iframe").attr("src","http://www.ecowebhosting.co.uk");
     });
